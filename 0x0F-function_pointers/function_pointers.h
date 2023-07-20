@@ -1,6 +1,6 @@
-#include <stddef.h>
 #ifndef FUNCTION_POINTERS_HEADER
 #define FUNCTION_POINTERS_HEADER
+#include <stddef.h>
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
